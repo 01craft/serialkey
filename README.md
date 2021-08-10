@@ -13,7 +13,7 @@ Currently it is designed to work with the Hagstrom Electronics [https://www.hags
 Clone the repository.  
 Edit *serialkey_config.py* for the serial port designation for your USB-ASC232 or USBtoUSB device, and baud rate that you have configured your device for (see the manual for the device). 
 
-Requirements: pyserial
+Requirements: pyserial, getch
 
 Possibly requires installing [unicurses](https://github.com/unicurses/unicurses.git).
 
